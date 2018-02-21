@@ -54,6 +54,7 @@ CREATE TABLE `hospital`.`conf_title` (
   PRIMARY KEY (`recid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+
 CREATE TABLE `hospital`.`doctor_profile` (
   `recid` int(11) NOT NULL AUTO_INCREMENT,
   `doctor_name` varchar(200) DEFAULT NULL,
